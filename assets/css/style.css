@@ -108,7 +108,7 @@ nav ul li:first-child a {
 .photo {
 	float: left;
 	margin-right: 30px;
-	clear: right;
+	clear: both;
 }
 
 footer {
