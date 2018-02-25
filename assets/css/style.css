@@ -24,19 +24,19 @@ header {
 }
 
 #logo {
+	font-size: 26px;
+	padding: 10px;
+	line-height: 80px;
 	background-color: #4aaaa5;
 	float: left;
 	color:#fff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 26px;
-	padding: 10px;
-	line-height: 80px;
 	font-weight: bold;
 	text-decoration: none;
 }
-
+/* https://css-tricks.com/a-couple-of-use-cases-for-calc/ */
 #container {
-	min-height: calc(100vh - 264px);
+	min-height: calc(100vh - 250px);
 }
 #content {
 	float: left;
@@ -81,7 +81,7 @@ nav ul li a {
 	margin-left: 20px;
 	line-height: 22px;
 	padding-left: 20px;
-	border-left: 1px solid #ddd;
+	border-left: .5px solid;
 	border-right: 0;
 }
 /* this is exciting*/
@@ -114,15 +114,16 @@ footer {
 	text-align: center;
 	background-color: #777;
 	color: #ccc;
-	line-height: 90px;
-	margin-top: 40px;
+	line-height: 95px;
+	margin-top: 20px;
 	border-top: 8px solid #4aaaa5;
 	font-size: 12px;
+	bottom: -20px;
 }
 .square {
     position: relative;
     float: left;
-    width: 274px;
+    width: 292px;
     margin: 20px 0 25px;
     overflow: auto;
   }
