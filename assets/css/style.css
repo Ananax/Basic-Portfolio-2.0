@@ -138,9 +138,9 @@ footer {
  
 .square h3 {
 	font-size: 18px;
-	position: absolute;
+	position: relative;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-    bottom: 20px;
+    bottom: 70px;
     width: 100%;
     padding: 7.5px;
     color:white;
